@@ -18,6 +18,7 @@
       display: inline-block;
       padding: 40px;
       max-width: 500px;
+      width: 100%;
     }
     h1 {
       font-size: 32px;
@@ -31,14 +32,31 @@
       font-size: 14px;
       color: #555;
     }
+    /* Center the button inside the .box div */
+    .button-container {
+      text-align: center; /* Aligns the button to the center */
+      margin-top: 20px; /* Adds some space above the button */
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 32px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049; /* Button color change on hover */
+    }
   </style>
 </head>
 <body>
   <div class="box">
-    <h1> Ooops! Դուք ենթարկվեցին ֆիշինգային հարձակման </h1>
+    <h1>Ooops! Դուք ենթարկվեցին ֆիշինգային հարձակման</h1>
 
     <p>Հարգելի գործընկեր </p> 
-    <p>Եթե դուք տեսնում եք այս էջը, ուրեմն դուք դարձել եք ֆիշինգային հարցակման զոհ,որը ստեղծվել է Տեղեկատվական Անվտանգության կողմից։</p>
+    <p>Եթե դուք տեսնում եք այս էջը, ուրեմն դուք դարձել եք ֆիշինգային հարցակման զոհ, որը ստեղծվել է Տեղեկատվական Անվտանգության կողմից։</p>
     <p>Խնդրում ենք առաջին հերթին փոխել ձեր գաղտնաբառը։</p>
     
     <p>Միշտ լինել զգոն, հղումներով անցնելիս կամ անձնական տվյալներ մուտքագրելիս։</p>
@@ -47,12 +65,15 @@
 
     <p>Խնդրում ենք ուղարկել կասկածելի էլ․ նամակները Տեղեկատվական անվտանգության բաժին ՝
         <a href="mailto:itsecurityofficers@araratbank.am">itsecurityofficers@araratbank.am</a> </p>
-       <h1> <p>Միշտ ստուգեք հղումները սեղմելուց առաջ։</p></div> </h1>
-   <a href="https://youtu.be/dQw4w9WgXcQ?si=nxY2ELiPrE4e1Y8S" target="_blank">
-  <button style="background-color: #4CAF50; color: white; padding: 15px 32px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer;">
-    Հաջորդ էջ
-  </button>
-</a>
+    
+    <p>Միշտ ստուգեք հղումները սեղմելուց առաջ։</p>
+
+    <!-- Container for the button -->
+    <div class="button-container">
+      <a href="https://youtu.be/dQw4w9WgXcQ?si=nxY2ELiPrE4e1Y8S" target="_blank">
+        <button>Հաջորդ էջ</button>
+      </a>
+    </div>
   </div>
 </body>
 </html>
